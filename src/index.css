@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #090909;
+    color: whitesmoke;
+}
+
+.bg-nav{
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(44,58,71, 0.4);
+    /* background-color: #0f172a; */
+    position: sticky;
+    top: 0;
+} 
+
